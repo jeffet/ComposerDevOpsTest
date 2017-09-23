@@ -17,7 +17,7 @@
             "eventURL": "grpc://173.193.99.110:30111"
         }
     ],
-    "keyValStore": "../../composer-credentials/ibm-bc-org1",
+    "keyValStore": "../composer-credentials/ibm-bc-org1",
     "channel": "channel1",
     "mspID": "Org1MSP",
     "timeout": 300
