@@ -1,0 +1,24 @@
+{
+    "name": "ibm-bc-org1",
+    "description": "Connection profile for IBM Blockchain Platform",
+    "type": "hlfv1",
+    "orderers": [
+        {
+            "url": "grpc://173.193.99.110:31010"
+        }
+    ],
+    "ca": {
+        "url": "http://173.193.99.110:30000",
+        "name": "CA1"
+    },
+    "peers": [
+        {
+            "requestURL": "grpc://173.193.99.110:30110",
+            "eventURL": "grpc://173.193.99.110:30111"
+        }
+    ],
+    "keyValStore": "../../composer-credentials/ibm-bc-org1",
+    "channel": "channel1",
+    "mspID": "Org1MSP",
+    "timeout": 300
+}
